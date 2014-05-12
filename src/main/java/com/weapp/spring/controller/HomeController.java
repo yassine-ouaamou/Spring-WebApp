@@ -1,4 +1,4 @@
-package com.weapp.spring;
+package com.weapp.spring.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -12,6 +12,8 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.weapp.spring.User;
 
 /**
  * Handles requests for the application home page.
